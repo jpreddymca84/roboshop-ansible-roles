@@ -1,7 +1,7 @@
 - name: "install {{component}}"
   hosts: "{{component}}"
   vars_failes:
-  - variables.yaml
+  - vars/{{compomemt}}.yaml
   become: yes
   roles:
   - "{{component}}"
