@@ -1,1 +1,2 @@
 MONGODB_HOST: mongodb.jpdaws.online
+REDIS_HOST: redis.jpdaws.cloud
