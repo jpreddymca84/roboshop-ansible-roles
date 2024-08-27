@@ -1,0 +1,13 @@
+- name: install go
+  ansible.builtin.dnf:
+  name: golang
+  state: present
+
+- name: Install dependencies
+  ansible.builtin.commaind: "{{item}}"
+  loop:
+  - go mod init dispatch
+  - go get 
+  - go build
+  agrs:
+    chdir: /app
