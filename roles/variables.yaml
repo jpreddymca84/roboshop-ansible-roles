@@ -1,3 +1,10 @@
 MONGODB_HOST: mongodb.jpdaws.cloud
 REDIS_HOST: redis.jpdaws.cloud
+MYSQL_HOST: mysql.jpdaws.cloud
+RABBITMQ_HOST: rabbitmq.jpdaws.cloud
 CATALOGUE_HOST: catalogue.jpdaws.cloud
+CART_HOST: cart.jpdaws.cloud
+USER_HOST: user.jpdaws.cloud
+SHIPPING_HOST: shipping.jpdaws.cloud
+PAYMENT_HOST: payment.jpdaws.cloud
+DISPATCH_HOST: dispatch.jpdaws.cloud
